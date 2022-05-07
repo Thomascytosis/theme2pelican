@@ -1,6 +1,8 @@
-title: "Contact"
+title: Contact
 date: 2022-05-03
 category: Contact
+<div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+  <div class="container">
 <div class="footer_wrapper" id="contact">
   <div class="container">
     <section class="page_section contact" id="contact">
@@ -42,4 +44,6 @@ category: Contact
       </div>
     </section>
   </div>
+</div>
+</div>
 </div>

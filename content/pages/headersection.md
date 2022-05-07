@@ -1,7 +1,10 @@
-title: "Navigation"
+title: Navigation
 date: 2022-05-03
 category: Nav
+status: hidden
 <!--Header_section-->
+<div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+  <div class="container">
 <header id="header_wrapper">
   <div class="container">
     <div class="header_box">
@@ -25,4 +28,6 @@ category: Nav
     </div>
   </div>
 </header>
+</div>
+</div>
 <!--Header_section--> 

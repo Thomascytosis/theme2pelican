@@ -25,7 +25,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 12
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -41,4 +41,11 @@ EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'},}
 LOAD_CONTENT_CACHE = False
 
 # Display Categories on Menu
-DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
+# Display Pages on Menu
+DISPLAY_PAGES_ON_MENU = True
+
+#Save Blog Index to url
+INDEX_SAVE_AS = '/pages/blog_index.html'
+BLOG_INDEX = '/pages/blog_index.html'

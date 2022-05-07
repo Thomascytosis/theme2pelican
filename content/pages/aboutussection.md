@@ -1,4 +1,4 @@
-title: "About"
+title: About
 date: 2022-05-03
 category: About
 <section><!--Aboutus-->

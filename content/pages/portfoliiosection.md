@@ -1,17 +1,21 @@
-title: "Portfolio"
+title: PORTFOLIO
 date: 2022-05-03
-category: portfolio
+category: PORTFOLIO
+URL:
+save_as: index.html
+<div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+  <div class="container">
 <!-- Portfolio -->
 <section id="Portfolio" class="content"> 
   <!-- Container -->
-  <div class="container portfolio_title"> 
+  <!-- <div class="container portfolio_title">  -->
     <!-- Title -->
     <div class="section-title">
-      <h2>Projects</h2>
+      <h2>Portfolio</h2>
 	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
     </div>
     <!--/Title --> 
-  </div>
+  <!-- </div> -->
   <!-- Container -->
   <div class="portfolio-top"></div>
   <!-- Portfolio Filters -->
@@ -156,4 +160,6 @@ category: portfolio
     <div id="project_data"></div>
   </div>
 </section>
+</div>
+</div>
 <!--/Portfolio --> 

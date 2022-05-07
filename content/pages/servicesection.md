@@ -1,7 +1,9 @@
-title: "Service"
+title: Skills
 date: 2022-05-03
-category: service
+category: skills
 <!--Service-->
+<div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+  <div class="container">
 <section  id="service">
   <div class="container">
     <h2>Skills</h2>
@@ -40,4 +42,6 @@ category: service
     </div>
   </div>
 </section>
+</div>
+</div>
 <!--Service-->

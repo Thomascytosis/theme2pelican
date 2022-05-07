@@ -1,7 +1,9 @@
-title: "Banner"
+title: Banner
 date: 2022-05-03
 category: Banner
 <!--Hero_Section-->
+<div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+  <div class="container">
 <section id="hero_section" class="top_cont_outer">
   <div class="hero_wrapper">
     <div class="container">
@@ -18,4 +20,6 @@ category: Banner
     </div>
   </div>
 </section>
+</div>
+</div>
 <!--Hero_Section--> 
