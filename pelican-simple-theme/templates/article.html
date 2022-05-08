@@ -30,6 +30,9 @@
          title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
  {% import 'translations.html' as translations with context %}
  {{ translations.translations_for(article) }}
+ {% if article.techy %}
+  <blockquote id="techy" class="body text-center"></blockquote>
+ {% endif %}
   </header>
   <div class="entry-content">
     {{ article.content }}

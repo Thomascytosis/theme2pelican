@@ -21,6 +21,9 @@
                 <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
             {% endfor %}
             </address>
+            {% if article.techy %}
+              <blockquote id="techy" class="body text-center"></blockquote>
+            {% endif %}
         </footer><!-- /.post-info --></div>
     </div></div>
 {% endfor %}

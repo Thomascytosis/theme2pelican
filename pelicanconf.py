@@ -40,7 +40,7 @@ EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'},}
 # Disable cache while developing
 LOAD_CONTENT_CACHE = False
 
-# Display Categories on Menu
+# Display Categories on Menu 
 DISPLAY_CATEGORIES_ON_MENU = False
 
 # Display Pages on Menu
@@ -50,3 +50,4 @@ DISPLAY_PAGES_ON_MENU = True
 INDEX_SAVE_AS = '/pages/blog.html'
 # SAVE index.html into Menuitenms
 MENUITEMS = (("Blog","./pages/blog.html"),)
+
