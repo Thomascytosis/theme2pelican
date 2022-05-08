@@ -49,14 +49,13 @@
             <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             </div>
           <div id="main-nav" class="collapse navbar-collapse navStyle"><ul class="nav navbar-nav" id="mainNav">
-        {% for title, link in MENUITEMS %}
-            <li class="active"><a href="{{ link }}" class="scroll-link">{{ title }}</a></li>
-        {% endfor %}
+            {% for title, link in MENUITEMS %}
+            <li{% if link == active_page %} class="active" {% endif %}><a href="/{{ link }}">{{ title }}</a></li>
+            {% endfor %}
         {% if DISPLAY_PAGES_ON_MENU %}
           {% for p in pages %}
             <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
           {% endfor %}
-          <li><a class="insert" href="{{BLOG_INDEX}}">Blog</a></li>
         {% endif %}
         {% if DISPLAY_CATEGORIES_ON_MENU %}
           {% for cat, null in categories %}

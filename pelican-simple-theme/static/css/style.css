@@ -24,7 +24,6 @@ a, a:hover, a:active {
 a:hover {
     color:#393E46;
 }
-
 .clear {
     clear: both;
     display: block;
@@ -50,7 +49,7 @@ a:hover {
 /* Common style */
 .grid figure {
 	position: relative;
-	float: left;
+	float:left;
 	overflow: hidden;
 	margin: 10px 1%;
 	min-width: 320px;
@@ -679,6 +678,7 @@ a.contact_btn:hover {
     overflow: hidden;
     float: left;
     padding: 12px 0px;
+    
 }
 
 .Portfolio-box img {
@@ -2035,6 +2035,3 @@ float: left;
 width: 60px;
 height: auto;
 }
-a .insert:active {
-    color:#00ADB5 !important;
-    }

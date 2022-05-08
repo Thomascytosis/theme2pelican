@@ -47,5 +47,6 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
 
 #Save Blog Index to url
-INDEX_SAVE_AS = '/pages/blog_index.html'
-BLOG_INDEX = '/pages/blog_index.html'
+INDEX_SAVE_AS = '/pages/blog.html'
+# SAVE index.html into Menuitenms
+MENUITEMS = (("Blog","./pages/blog.html"),)
