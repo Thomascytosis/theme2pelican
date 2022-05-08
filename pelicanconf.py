@@ -1,7 +1,7 @@
 AUTHOR = 'Thomascytosis'
 SITENAME = 'portfolio'
-SITEURL = '.'
-OUTPUT = 'docs'
+SITEURL = ''
+
 PATH = 'content'
 
 TIMEZONE = 'America/Denver'
