@@ -1,6 +1,6 @@
 AUTHOR = 'Thomascytosis'
 SITENAME = 'portfolio'
-SITEURL = '.'
+SITEURL = ''
 
 PATH = 'content'
 
