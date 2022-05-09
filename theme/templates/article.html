@@ -30,10 +30,15 @@
          title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
  {% import 'translations.html' as translations with context %}
  {{ translations.translations_for(article) }}
+ <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+  <div class="container">
  {% if article.techy %}
   <blockquote id="techy" class="body text-center"></blockquote>
  {% endif %}
+ </div></div>
   </header>
+  <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+    <div class="container">
   <div class="entry-content">
     {{ article.content }}
   </div><!-- /.entry-content -->
@@ -67,6 +72,12 @@
         {% endfor %}
     </div>
     {% endif %}
+    {% if article.image %}
+    <div>
+      <img src={{article.image}} alt={{article.image_alt}}>
+      </div>
+    {% endif %}
+  </div></div>
   </footer><!-- /.post-info -->
 </section>
 {% endblock %}
