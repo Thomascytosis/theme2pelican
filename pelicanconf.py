@@ -31,7 +31,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # Theme Directory
-THEME = "C:\\Users\\thomc\Desktop\\theme2pelican\\pelican-simple-theme"
+THEME = "C:\\Users\\thomc\Desktop\\theme2pelican\\theme"
 
 # Favicon
 # STATIC_PATHS = ['images', 'extra/favicon.ico']
